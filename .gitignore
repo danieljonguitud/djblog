@@ -26,3 +26,6 @@ wp-cli.local.yml
 
 # Jet Brains
 .idea/
+
+# mac stuff
+.DS_Store
