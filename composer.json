@@ -40,7 +40,8 @@
     "roots/wp-config": "1.0.0",
     "roots/wp-password-bcrypt": "1.0.0",
     "wpackagist-plugin/elementor": "^3.2",
-    "wpackagist-plugin/wp-rest-cache": "^2021.3"
+    "wpackagist-plugin/wp-rest-cache": "^2021.3",
+    "wpackagist-plugin/require-featured-image": "^1.5"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.6.0",
