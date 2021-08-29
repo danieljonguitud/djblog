@@ -24,7 +24,7 @@ add_action( 'wp_enqueue_scripts', 'hello_elementor_child_enqueue_scripts', 20 );
 
 function changeExcerptLength() : int
 {
-    return 20;
+    return 23;
 }
 
 add_filter('excerpt_length', 'changeExcerptLength');
