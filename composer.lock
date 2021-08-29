@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "17f3f6980c94b1a76218502892689229",
+    "content-hash": "4cbdc869ffb357a39e71abe92e98a328",
     "packages": [
         {
             "name": "composer/installers",
@@ -1006,6 +1006,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/require-featured-image/"
+        },
+        {
+            "name": "wpackagist-plugin/wordpress-seo",
+            "version": "17.0",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/wordpress-seo/",
+                "reference": "tags/17.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.17.0.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/wordpress-seo/"
         },
         {
             "name": "wpackagist-plugin/wp-rest-cache",
