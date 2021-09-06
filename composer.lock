@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ec3a34039dcaea74f5c66c38b2f9e7a3",
+    "content-hash": "4cbdc869ffb357a39e71abe92e98a328",
     "packages": [
         {
             "name": "composer/installers",
@@ -988,24 +988,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/elementor/"
-        },
-        {
-            "name": "wpackagist-plugin/imagify",
-            "version": "1.10",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/imagify/",
-                "reference": "tags/1.10"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/imagify.1.10.zip"
-            },
-            "require": {
-                "composer/installers": "~1.0 || ~2.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/imagify/"
         },
         {
             "name": "wpackagist-plugin/require-featured-image",
